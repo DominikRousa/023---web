@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+.mainPageLinks{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mainPageLinks a{
+    margin-inline: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mainPageLinks a:hover{
+    color: brown;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
